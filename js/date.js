@@ -22,7 +22,7 @@ function setDate() {
     ];
     
     if (hrs > 12) {
-        hours.innerHTML = '0' + (hrs - 12);
+        hours.innerHTML = hrs - 12;
     } else {
         hours.innerHTML = hrs;
     }
